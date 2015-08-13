@@ -11,7 +11,14 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 
 
+
+import com.snap.entity.Admin;
+import com.snap.entity.Booking;
+import com.snap.entity.City;
 import com.snap.entity.Movie;
+import com.snap.entity.Show;
+import com.snap.entity.Theatre;
+import com.snap.entity.User;
 
 public class DaoImpl implements DaoI{
 
@@ -163,5 +170,8 @@ public class DaoImpl implements DaoI{
 		return 0;
 	}
 
+	
+
+	
 
 }

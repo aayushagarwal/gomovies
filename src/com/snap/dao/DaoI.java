@@ -3,7 +3,7 @@ package com.snap.dao;
 import java.util.List;
 import java.util.Set;
 
-import com.snap.entity.Movie;
+import com.snap.entity.*;
 
 public interface DaoI {
 	public List<Movie> getMovies();
