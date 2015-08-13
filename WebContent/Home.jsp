@@ -9,9 +9,16 @@
 <body>
 <h1 align="center">Home Page</h1>
 <hr/>
-<a href="viewAll.htm">View All Employees</a><br/><br/>
-<p>dygfew</p>
+<a href="login.html">Login</a><br/><br/>
+
 <hr/>
-<a href="Home.jsp">Home</a>
+<input type="text" name="search" id="search"><input type="button" onclick="movies.jsp" value="search">
+<a href="movies.htm">movies</a>
+<a href="theatre.htm">theatre</a>
+<a href="city.htm">city</a>
+<a href="shows.htm">shows</a>
+<a href="admin.htm">admins</a>
+<a href="user.htm">user</a>
+<a href="booking.htm">booking</a>
 </body>
 </html>

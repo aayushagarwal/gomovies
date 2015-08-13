@@ -55,5 +55,113 @@ public class DaoImpl implements DaoI{
 		return 1;
 	}
 
+	@Override
+	public List<City> getCities() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int createCity() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addCity(City city) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Admin> getAdmins() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int createAdmin() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addAdmin(Admin Admin) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Theatre> getTheatres() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int createTheatre() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addTheatre(Theatre theatre) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<User> getUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int createUser() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addUser(User user) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Booking> getBookings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int createBooking() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addMovie(Booking booking) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Show> getShows() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int createShow() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addMovie(Show show) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 
 }
